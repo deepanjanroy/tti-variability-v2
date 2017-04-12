@@ -1,0 +1,5 @@
+*.pyc
+ctpresults.json
+results.csv
+chosen_results.csv
+data_stats.csv

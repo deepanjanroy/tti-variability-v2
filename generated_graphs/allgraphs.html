@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         body {
+             font-family: monospace;
+         }
+         #graph-container {
+             width: 400px;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="graph-container"">
+            <p>- The graphs are sorted by increasing mean TTI</p>
+	          <p>- For each graph, TTI values are sorted in increasing order.</p>
+            <p>- Why doesn't some sites have 25 runs?</p>
+		        <p>We did not get a TTI value for all 25 runs. There could be multiple reasons for this - we did not wait long enough for the site to reach firstInteractive, there was some network/device error and the site did not load at all, the site somehow spawned multiple renderers, both of which reached TTI and my code did not deal with multiple TTI values, etc. It's mostly because we didn't wait long enough. </p>
+	          <p>- Why is TTI plotted on the x axis?</p>
+		        <p>All the vertically stacked graphs share a common x-axis, and it's easier to compare TTI distribution of different sites this way. We could achieve the same thing by plotting TTI on the y axis and stacking the graphs horizontally, but horizontal scrolling is awkward.</p>
+            <hr />
+<p id="0">0: http://www.akamaihd.net/</p>
+<img src="0.png">
+<p id="1">1: http://www.google.cn/</p>
+<img src="1.png">
+<p id="2">2: http://www.adnetworkperformance.com/</p>
+<img src="2.png">
+<p id="3">3: http://rakuten.ne.jp/</p>
+<img src="3.png">
+<p id="4">4: http://www.pinimg.com/</p>
+<img src="4.png">
+<p id="5">5: http://www.1905.com/index_h5.shtml</p>
+<img src="5.png">
+<p id="6">6: http://www.informer.com/</p>
+<img src="6.png">
+<p id="7">7: http://m.360.com/</p>
+<img src="7.png">
+<p id="8">8: http://www.indeed.com/m/</p>
+<img src="8.png">
+<p id="9">9: http://m.asos.com/us/?hrd=1&setPrefSite=true&r=1&mk=na</p>
+<img src="9.png">
+<p id="10">10: https://www.wikipedia.org/</p>
+<img src="10.png">
+<p id="11">11: http://www.manoramaonline.com/facer.html</p>
+<img src="11.png">
+<p id="12">12: http://www.siteadvisor.com/final/index.html</p>
+<img src="12.png">
+<p id="13">13: https://www.gamefaqs.com/</p>
+<img src="13.png">
+<p id="14">14: http://www.doublepimp.com/Account/LogIn</p>
+<img src="14.png">
+<p id="15">15: http://www.y8.com/tags/Touchscreen</p>
+<img src="15.png">
+<p id="16">16: http://hp.myway.com/portal/ttab02/index.html</p>
+<img src="16.png">
+<p id="17">17: http://gawker.com/</p>
+<img src="17.png">
+<p id="18">18: http://www.weblio.jp/</p>
+<img src="18.png">
+<p id="19">19: http://wap.sogou.com/?sosojump=1&pid=sogou-misc-77c493ec14246d74</p>
+<img src="19.png">
+<p id="20">20: https://www.google.fr/?gws_rd=ssl</p>
+<img src="20.png">
+<p id="21">21: https://www.amazon.com/</p>
+<img src="21.png">
+<p id="22">22: https://www.google.rs/?gws_rd=ssl</p>
+<img src="22.png">
+<p id="23">23: https://www.google.ch/?gws_rd=ssl</p>
+<img src="23.png">
+<p id="24">24: https://www.google.hu/?gws_rd=ssl</p>
+<img src="24.png">
+<p id="25">25: http://m.ly.com/?refid=18024458</p>
+<img src="25.png">
+<p id="26">26: http://www.amazon.in/</p>
+<img src="26.png">
+<p id="27">27: http://www.mayoclinic.org/</p>
+<img src="27.png">
+<p id="28">28: http://www.tube8.com/</p>
+<img src="28.png">
+<p id="29">29: http://www.lun.com/lunmobileiphone//homeslide.aspx#pagina-1</p>
+<img src="29.png">
+<p id="30">30: http://m.subito.it/</p>
+<img src="30.png">
+<p id="31">31: https://www.sahibinden.com/</p>
+<img src="31.png">
+<p id="32">32: http://m.hm.com/entrance.ahtml?orguri=%2F</p>
+<img src="32.png">
+<p id="33">33: https://www.redtube.com/</p>
+<img src="33.png">
+<p id="34">34: http://www.mufg.jp/</p>
+<img src="34.png">
+<p id="35">35: http://www.sfr.fr/</p>
+<img src="35.png">
+<p id="36">36: http://www.rbc.ru/</p>
+<img src="36.png">
+<p id="37">37: https://www.google.co.uk/?gws_rd=ssl</p>
+<img src="37.png">
+<p id="38">38: http://www.meetup.com/</p>
+<img src="38.png">
+<p id="39">39: https://www.google.co.th/?gws_rd=ssl</p>
+<img src="39.png">
+<p id="40">40: http://m.sohu.com/?_trans_=000115_3w&jump=front</p>
+<img src="40.png">
+<p id="41">41: https://www.instructure.com/</p>
+<img src="41.png">
+<p id="42">42: https://www.yandex.ru/</p>
+<img src="42.png">
+<p id="43">43: http://m.kohls.com/</p>
+<img src="43.png">
+<p id="44">44: https://www.google.com.ph/?gws_rd=ssl</p>
+<img src="44.png">
+<p id="45">45: http://www.exblog.jp/</p>
+<img src="45.png">
+<p id="46">46: http://www.reimageplus.com/</p>
+<img src="46.png">
+<p id="47">47: https://www.popads.net/app/webroot/</p>
+<img src="47.png">
+<p id="48">48: https://www.whatsapp.com/</p>
+<img src="48.png">
+<p id="49">49: https://www.google.co.kr/?gws_rd=ssl</p>
+<img src="49.png">
+<p id="50">50: http://www.blogspot.jp/?m=1</p>
+<img src="50.png">
+<p id="51">51: https://www.tripadvisor.com/</p>
+<img src="51.png">
+<p id="52">52: http://www.trending-buzzz.net/</p>
+<img src="52.png">
+<p id="53">53: http://m.homedepot.com/</p>
+<img src="53.png">
+<p id="54">54: https://www.java.com/en/</p>
+<img src="54.png">
+<p id="55">55: https://www.slideshare.net/</p>
+<img src="55.png">
+<p id="56">56: http://www3.hilton.com/en/index.html</p>
+<img src="56.png">
+<p id="57">57: http://www.corriere.it/</p>
+<img src="57.png">
+<p id="58">58: http://www.quikr.com/</p>
+<img src="58.png">
+<p id="59">59: http://www.slate.com/</p>
+<img src="59.png">
+<p id="60">60: http://www.vox.com/</p>
+<img src="60.png">
+<p id="61">61: https://www.rt.com/</p>
+<img src="61.png">
+<p id="62">62: https://www.office.com/</p>
+<img src="62.png">
+<p id="63">63: https://www.bodybuilding.com/</p>
+<img src="63.png">
+<p id="64">64: https://www.reddit.com/</p>
+<img src="64.png">
+<p id="65">65: https://www.irctc.co.in/eticketing/loginHome.jsf</p>
+<img src="65.png">
+<p id="66">66: http://www.livedoor.com/lite/</p>
+<img src="66.png">
+<p id="67">67: http://blog.seesaa.jp/</p>
+<img src="67.png">
+<p id="68">68: https://www.scribd.com/</p>
+<img src="68.png">
+<p id="69">69: https://www.hotels.com/</p>
+<img src="69.png">
+<p id="70">70: https://www.amazon.co.jp/</p>
+<img src="70.png">
+<p id="71">71: https://m.ups.com/mDot/</p>
+<img src="71.png">
+<p id="72">72: https://www.credit-agricole.fr/</p>
+<img src="72.png">
+<p id="73">73: https://www.skype.com/en/</p>
+<img src="73.png">
+<p id="74">74: https://www.aweber.com/</p>
+<img src="74.png">
+<p id="75">75: https://www.jimdo.com/</p>
+<img src="75.png">
+<p id="76">76: https://www.t-mobile.com/</p>
+<img src="76.png">
+<p id="77">77: https://www.4shared.com/</p>
+<img src="77.png">
+<p id="78">78: https://m.costco.com/</p>
+<img src="78.png">
+<p id="79">79: https://www.fitbit.com/home</p>
+<img src="79.png">
+<p id="80">80: https://asana.com/</p>
+<img src="80.png">
+<p id="81">81: https://www.blogger.com/about/?r=1-null_user</p>
+<img src="81.png">
+<p id="82">82: https://www.ibm.com/us-en/</p>
+<img src="82.png">
+<p id="83">83: https://s.amebame.com/?frm_id=c.am-brow_l.top-_r.am-www</p>
+<img src="83.png">
+<p id="84">84: https://m.lenta.ru/</p>
+<img src="84.png">
+<p id="85">85: https://m.xhamster.com/</p>
+<img src="85.png">
+<p id="86">86: https://www.olx.in/</p>
+<img src="86.png">
+<p id="87">87: https://www.microsoftstore.com/store/msusa/en_US/home</p>
+<img src="87.png">
+<p id="88">88: https://m.hitwe.com/</p>
+<img src="88.png">
+<p id="89">89: https://www.capitalone.com/</p>
+<img src="89.png">
+<p id="90">90: https://m.youjizz.com/</p>
+<img src="90.png">
+<p id="91">91: https://m.ticketmaster.com/ticket/events.do?region=41</p>
+<img src="91.png">
+<p id="92">92: http://www.independent.co.uk/us</p>
+<img src="92.png">
+<p id="93">93: https://m.mediafire.com/</p>
+<img src="93.png">
+<p id="94">94: https://m.yahoo.co.jp/</p>
+<img src="94.png">
+<p id="95">95: https://www.usnews.com/</p>
+<img src="95.png">
+<p id="96">96: https://www.nhl.com/</p>
+<img src="96.png">
+<p id="97">97: https://m.detik.com/</p>
+<img src="97.png">
+<p id="98">98: https://m.snapdeal.com/</p>
+<img src="98.png">
+<p id="99">99: https://m.kwejk.pl/</p>
+<img src="99.png">
+<p id="100">100: http://m.goal.com/s/en-us</p>
+<img src="100.png">
+Generated 101 graphs
+        </div>
+    </body>
+</html>
