@@ -52,7 +52,6 @@ def main():
         prop_line, = plt.plot([v['Prop'] for v in values],  range(len(values)), 'b-o', label='TTI-Prop')
         lonely_line, = plt.plot([v['Lonely'] for v in values],  range(len(values)), 'r-s', label='TTI-Lonely')
         prop_and_lonely_line, = plt.plot([v['PropAndLonely'] for v in values],  range(len(values)), 'g-p', label='TTI-PropAndLonely')
-        lonely_line, = plt.plot([v['Prop'] for v in values],  range(len(values)), 'g-.', label='TTI-Prop')
         fcp_line, = plt.plot([v['TTFCP'] for v in values], range(len(values)), 'g-.', label='TTFCP')
         fmp_line, = plt.plot([v['TTFMP'] for v in values], range(len(values)), 'r--', label='TTFMP')
         # tti_line, = plt.plot(tti_values, range(len(values)), 'b-o', label='TTI')
